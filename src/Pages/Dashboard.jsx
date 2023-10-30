@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Paper, List, ListItem, ListItemText, Divider, Typography, Avatar, ListItemIcon, Box, Button } from '@mui/material';
+import { Grid, Paper, List, ListItem, ListItemText, Typography, ListItemIcon, Box, Button } from '@mui/material';
 
 import {
     Home,
@@ -13,10 +13,9 @@ import {
     ExitToApp,
   } from '@mui/icons-material';
 
-import { TextField, InputAdornment, IconButton } from '@mui/material';
+import { TextField } from '@mui/material';
 
 import SearchIcon from '@mui/icons-material/Search';
-import FilterIcon from '@mui/icons-material/FilterList';
 import TuneIcon from '@mui/icons-material/Tune';
 
 import PostItems from '../Components/PostItem';
